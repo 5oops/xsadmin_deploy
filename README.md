@@ -41,7 +41,7 @@ easy_install supervisor
 ```
 echo_supervisord_conf > /etc/supervisord.conf
 ```
-### 1.2.2 supervisor开机脚本
+### 1.2.2 supervisor开机脚本(CentOS 6.x开机脚本)
 ```
 wget https://github.com/Supervisor/initscripts/raw/master/redhat-init-mingalevme
 mv redhat-init-mingalevme /etc/init.d/supervisord
